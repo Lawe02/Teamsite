@@ -3,3 +3,16 @@
      color: rgb(145, 34, 34);
      font-family: 'Courier New', Courier, monospace;
  }
+ h2{
+    margin-block-end: auto;
+    color: rgb(2, 75, 6);
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    margin-block-end: auto;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color:seashell;
+}
