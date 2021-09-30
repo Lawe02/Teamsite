@@ -14,6 +14,15 @@ app.get('/', (req,res)=> {
     })
 })
 
+app.get('/stilar.css', (req, res) =>{
+    fs.readFile('stilar.css', (err, data)=>{
+        res.setHeader('content-type', 'text/css')
+        res.setHeader('contetnt-Length', data.length)
+        res.send(data);
+    })
+
+})
+
 app.listen(PORT, () => {
     console.log(`Example app listening at http://localhost:${PORT}`)
   })
