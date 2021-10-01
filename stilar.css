@@ -1,18 +1,33 @@
  h1{
      margin-block-end: auto;
-     color: rgb(145, 34, 34);
+     color: rgb(0, 0, 0);
      font-family: 'Courier New', Courier, monospace;
+     background-color: rgb(69, 53, 209);
+     margin-right: auto;
+     padding-left: 41%;
+     height: 100px;
+      
  }
- h2{
+ a{
     margin-block-end: auto;
     color: rgb(2, 75, 6);
     font-family: 'Courier New', Courier, monospace;
+   
 }
 p{
     margin-block-end: auto;
     color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    padding-block: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 body{
     background-color:seashell;
+}
+#txb{
+    width: 350px;
+    float: right;
+    margin-right: 500px;
 }
