@@ -3,14 +3,17 @@ body {
     font-family: "Lato", sans-serif;
 }
  
- h1{
+ header{
       
      color: rgb(0, 0, 0);
      font-family: 'Courier New', Courier, monospace;
-     background-color: rgb(69, 53, 209);
-     margin-right: auto;
+     font-size: 35px;
+     background-color: rgb(74, 110, 158);
+     margin-block-start: 20px;
+     margin-block-end: 20px;
      padding-left: 41%;
-     height: 65px;
+     padding-right: 41%;
+     height: 80px;        
       
  }
  a{
@@ -49,8 +52,9 @@ body{
   .sidebar a {
     display: block;
     color: black;
-    padding: 16px;
+    padding: 15px;
     text-decoration: none;
+    
   }
    
   .sidebar a.active {
@@ -59,8 +63,8 @@ body{
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+    background-color: rgba(122, 213, 255, 0.5);
+    color: black;
   }
   
   div.content {
@@ -79,8 +83,14 @@ body{
     div.content {margin-left: 0;}
   }
   
+  
   @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
       float: none;
-    }}
+
+    }
+    
+  }
+  
+  
