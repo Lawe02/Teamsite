@@ -4,7 +4,7 @@ const express = require('express');
 const fs = require('fs');
 
 const app = express();
-const port = 8037;
+const PORT = 8037;
 
 app.use(express.static('public'));
 
@@ -19,6 +19,6 @@ app.get('/', (req, res) => {
 
 });
 
-app.listen(port);
+app.listen(PORT);
 
-console.log('Server up and running, listning on port: ' + port);
+console.log('Server up and running, listning on port: ' + PORT);
